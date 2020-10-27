@@ -615,7 +615,7 @@ void read_matrix_sparse_format(const char *filename, Matrix::t& result)
 	// i_2 j_2 val_2
 	// ...
 	// i1_nnz j1_nnz val_nnz
-	// where n is the dimesndion of the matrix, and nnz the non-zero elements.
+	// where n is the dimension of the matrix, and nnz the non-zero elements.
 	// It gives only the upper triangular values.
 	
 	int row, col;    	
@@ -628,7 +628,7 @@ void read_matrix_sparse_format(const char *filename, Matrix::t& result)
 	}
 
 	string line, aux;
-	// First line must have in the the dimesion of the suqare matrix and the number of non-zeros
+	// First line must have in the the dimension of the suqare matrix and the number of non-zeros
 	getline(fin, line);
 	stringstream stream(line);
 	getline(stream,aux,' ');
