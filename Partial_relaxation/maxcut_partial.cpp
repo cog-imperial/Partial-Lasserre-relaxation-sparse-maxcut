@@ -628,7 +628,7 @@ void read_matrix_sparse_format(const char *filename, Matrix::t& result)
 	}
 
 	string line, aux;
-	// First line must have in the the dimension of the suqare matrix and the number of non-zeros
+	// First line must have the dimension of the square matrix and the number of non-zeros
 	getline(fin, line);
 	stringstream stream(line);
 	getline(stream,aux,' ');
