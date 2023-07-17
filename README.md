@@ -2,12 +2,13 @@
 Implements the partial and augmented relaxations described in "Partial Lasserre relaxation for sparse Max-Cut", by Campos et al. (2020).
 When using this code for any publications please reference this software package as:
 ```
-@article{Campos2020Partial,
-  author = {Juan S. Campos, Ruth Misener, and Panos Parpas},
-  title = {{Partial Lasserre relaxation for sparse Max-Cut}},
-  note = {Available on http://www.optimization-online.org},
-  year = {2020}
-  month = {10} 
+@article{campos2022partial,
+  title={Partial lasserre relaxation for sparse Max-Cut},
+  author={Campos, Juan S and Misener, Ruth and Parpas, Panos},
+  journal={Optimization and Engineering},
+  pages={1--22},
+  year={2022},
+  publisher={Springer}
 }
 ```
 
